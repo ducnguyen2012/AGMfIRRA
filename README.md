@@ -2,7 +2,7 @@
 
 ## Highlights
 The goal of this work is to enhance global text-to-image person retrieval performance, without requiring any additional supervision and inference cost. To achieve this, we utilize the full CLIP model as our feature extraction backbone. Additionally, we propose a novel cross-modal matching loss (SDM) and an Implicit Relation Reasoning module to mine fine-grained image-text relationships, enabling IRRA to learn more discriminative global image-text representations.
-![our IRRA Architecture](./AGMfIRRA.pdf)
+![our IRRA Architecture](./AGMfIRRA.png)
 ## Usage
 
 ### Requirements
