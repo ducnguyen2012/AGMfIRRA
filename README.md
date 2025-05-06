@@ -6,7 +6,7 @@ The goal of this work is to enhance global text-to-image person retrieval perfor
 ## Usage
 
 ### Requirements
-We use a single RTX3090 24G GPU for training and evaluation.
+We use a GPU T4 for training and evaluation.
 
 - `pytorch 1.9.0`
 - `torchvision 0.10.0`
@@ -24,7 +24,7 @@ python train.py \
 --img_aug \
 --batch_size 64 \
 --MLM \
---loss_names 'sdm+mlm+id' \
+--loss_names 'sdm+mlm+id+cmt' \
 --dataset_name 'CUHK-PEDES' \
 --root_dir 'your dataset root dir' \
 --num_epoch 60
