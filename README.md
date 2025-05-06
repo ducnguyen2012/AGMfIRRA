@@ -2,7 +2,7 @@
 
 ## Highlights
 The goal of this work is to enhance global text-to-image person retrieval performance, without requiring any additional supervision and inference cost. To achieve this, we utilize the full CLIP model as our feature extraction backbone. Additionally, we propose a novel cross-modal matching loss (SDM) and an Implicit Relation Reasoning module to mine fine-grained image-text relationships, enabling IRRA to learn more discriminative global image-text representations.
-
+![our IRRA Architecture](./our_IRRA.png)
 ## Usage
 
 ### Requirements
@@ -15,27 +15,6 @@ We use a single RTX3090 24G GPU for training and evaluation.
 
 ### Prepare Datasets
 Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description), and the RSTPReid dataset from [here](https://github.com/NjtechCVLab/RSTPReid-Dataset).
-
-Organize them in your dataset root directory as follows:
-
-your_dataset_root_dir/
-│
-├── CUHK-PEDES/
-│ ├── imgs/
-│ │ ├── cam_a/
-│ │ ├── cam_b/
-│ │ └── ...
-│ └── reid_raw.json
-│
-├── ICFG-PEDES/
-│ ├── imgs/
-│ │ ├── test/
-│ │ └── train/
-│ └── ICFG_PEDES.json
-│
-└── RSTPReid/
-├── imgs/
-└── data_captions.json
 
 ## Training
 
@@ -80,9 +59,9 @@ Some components of this code implementation are adopted from:
 
 [CLIP](https://github.com/openai/CLIP)
 
-TextReID
+[TextReID](https://github.com/BrandonHanx/TextReID)
 
-TransReID
+[TransReID](https://github.com/damo-cv/TransReID)
 
 We sincerely appreciate their contributions.
 
