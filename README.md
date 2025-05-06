@@ -30,7 +30,9 @@ python train.py \
 --num_epoch 60
 ```
 ## Testing
+```bash
 python test.py --config_file 'path/to/model_dir/configs.yaml'
+```
 ## Comparison with SOTA methods on CUHK-PEDES dataset
 | Method              | Ref      | Image Enc. | Text Enc.    | Rank-1    | Rank-5    | Rank-10   | mAP       |
 | ------------------- | -------- | ---------- | ------------ | --------- | --------- | --------- | --------- |
