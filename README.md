@@ -55,15 +55,7 @@ python test.py --config_file 'path/to/model_dir/configs.yaml'
 | **AGMfIRRA (Ours)** | -        | CLIP-ViT   | CLIP-Xformer | **73.46** | **89.41** | **93.44** | **65.73** |
 
 ### Acknowledgments
-Some components of this code implementation are adopted from:
-
-[CLIP](https://github.com/openai/CLIP)
-
-[TextReID](https://github.com/BrandonHanx/TextReID)
-
-[TransReID](https://github.com/damo-cv/TransReID)
-
-We sincerely appreciate their contributions.
+Some components of this code implementation are adopted from: [CLIP](https://github.com/openai/CLIP), [TextReID](https://github.com/BrandonHanx/TextReID), [TransReID](https://github.com/damo-cv/TransReID). We sincerely appreciate their contributions.
 
 Contact
 If you have any questions, please feel free to contact us via email: 21021292@vnu.edu.vn, 20021080@vnu.edu.vn, 22022542@vnu.edu.vn
