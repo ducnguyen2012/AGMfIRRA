@@ -12,7 +12,7 @@ torchvision 0.10.0
 prettytable
 easydict
 ## Prepare Datasets
-Download the CUHK-PEDES dataset from [here]([url](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description)), RSTPReid dataset form [here]([url](https://github.com/NjtechCVLab/RSTPReid-Dataset))
+Download the CUHK-PEDES dataset from [here]([https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description]), RSTPReid dataset form [here]([https://github.com/NjtechCVLab/RSTPReid-Dataset])
 
 Organize them in your dataset root dir folder as follows:
 
